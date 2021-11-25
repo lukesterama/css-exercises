@@ -8,13 +8,16 @@ body {
   font-family: Besley, serif;
 }
 
+
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display:flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
   align-items:center;
+  padding: 8px;
 
 
 
@@ -52,7 +55,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  display: flex;
+
 
 
   
@@ -63,16 +66,24 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  display: flex;
+
   
 }
 
 ul {
   list-style-type:none;
   display: flex;
-  flex: 1;
-  gap: 10px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
    
   
 
 }
+
+.left,.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
